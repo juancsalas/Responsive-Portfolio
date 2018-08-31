@@ -1,0 +1,336 @@
+/* CSS for background image and background header */
+body {
+    margin: 0;
+    background-image: url(../images/qbkls.png);
+}
+
+.content {
+    
+    height: 100%;
+    border-top: 2px solid #cccccc;
+    margin-bottom: 70px;
+}
+
+/* Below is all the styles for the header/links */
+.headerBackground {
+    background-color: white;
+}
+
+header {
+    width: 960px;
+    margin: auto;
+    color: white;
+}
+
+.name, .links {
+    display: inline-block;
+}
+
+.about, .portfolio, .contact {
+    text-decoration: none;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* CSS to make text change when mouse hovers over on */
+.about:hover, .portfolio:hover, .contact:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
+.portfolio, .contact {
+    border-left: 1px solid #cccccc;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.name {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 28px 40px 28px 40px;
+}
+
+.links {
+    position: relative;
+    float: right;
+    padding-top: 35px;
+}
+
+/* Main section starts here */
+.contactBox, .aboutMeBox {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    margin-top:25px;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
+
+.portfolioBox {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
+
+.aboutMeHeader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.portfolioHeader, .contactHeader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding-left: 30px;
+    padding-top: 43px;
+    padding-bottom: 8px;
+    font-size: 30px;
+}
+
+/* CSS for <hr> between title and main content in body */
+.aboutMeLine, .contactLine {
+    margin: 20px 30px 18px 30px;
+    border: 0px;
+    background-color: #cccccc;
+    height: 3px;
+}
+
+.portfolioLine {
+    margin: 20px 30px 40px 30px;
+    border: 0px;
+    background-color: #cccccc;
+    height: 3px;
+} 
+
+/* CSS for About Me Secion */
+.self {
+    height: 250px;
+    float: left;
+}
+
+.self, .aboutMeText {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.aboutMeText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.teams:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+.teams:visited {
+    color: #777777;
+}
+
+.teams:hover {
+    color: #4aaaa5;
+}
+
+.teams:active {
+    color: #4AC199;
+}
+
+/* CSS for the Portfolio grid */
+.gridContainer{
+    padding-left: 28px;
+    margin-left: 2px;
+}
+
+.grid {
+	display: table-row-group;
+}
+
+.gridRow {
+    display: table-row;
+    vertical-align: inherit;
+}
+
+.divTableCell {
+	display: table-cell;
+    padding-bottom: 50px;
+    padding-right: 35px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.portfolioImages {
+    width: 275px;
+    height: 207px;
+}
+
+.imagePlacing {
+    padding-bottom: 50px;
+    padding-right: 35px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.imageText {
+    background-color: #4aaaa5;
+    width: 88.6%;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    bottom: 60px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+/* CSS for the form */
+form {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2;
+    font-size: 18px;
+}
+
+input, textarea {
+    width: 97.5%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+}
+
+.inputEmail, .inputMessage {
+    padding-top: 10px;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-bottom:25px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+    position: relative;
+    background-color: #4aaaa5;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(5px);
+}
+
+/* CSS for the sticky footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    height: 60px;
+    border-top: 8px solid #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+
+    .name {
+        margin-left:32px;
+    }
+    
+    .contactBox, .aboutMeBox {
+        width: 665px;
+        margin-left: 40px;
+    }
+
+    .portfolioBox {
+        width: 665px;
+        margin-left: 40px;
+        margin-top:25px;
+    }
+
+    .portfolioImages {
+        width: 282px;
+        height: 215px;
+    }
+
+    .imageText {
+        width: 88.9%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+
+    .name {
+        margin-left: 20px;
+    }
+
+    .links {
+        margin-right: 25px;
+    }
+
+    .contactBox, .aboutMeBox, .portfolioBox {
+        margin-left: 20px;
+        width: 720px;
+    }
+
+    .portfolioImages {
+        width: 310px;
+        height: 244px;
+    }
+
+    .imageText {
+        width: 89.9%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .name {
+        margin-left: 0px;
+        width: 100%;
+        padding: 30px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .links {
+        float: none;
+        padding: 22px 0px 22px 0px;
+        left: 31%;
+    }
+
+    .contactBox, .aboutMeBox, .portfolioBox{
+        width: 600px;
+        margin-top: 5px;
+    }
+    .portfolioImages {
+        width: 540px;
+        height: 460px;
+    }
+
+    .imageText {
+        width: 93.9%;
+        font-size: 40px;
+        bottom: 70px;
+    }
+}
+
